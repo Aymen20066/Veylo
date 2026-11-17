@@ -4,8 +4,6 @@
 
 A working prototype that searches used cars across five European markets and estimates the total cost of importing each one into Poland, Romania, Bulgaria or the Czech Republic, with every number either sourced or explicitly marked unknown.
 
-![Search](docs/img/search.png)
-
 ## Project status
 
 Paused (prototype complete). I built this to test whether a landed-cost view could be a product for small car importers. The prototype showed it is technically feasible. Market research then showed three constraints: an established company launched the same calculation bundled with inspection, paperwork and transport; reliable data access depends on third-party scraping with unresolved terms of use; and my customer evidence was a single interview. I paused development rather than build further on an unproven edge.
@@ -23,8 +21,8 @@ Paused (prototype complete). I built this to test whether a landed-cost view cou
 ## Run it locally
 
 ```bash
-git clone <this repository>
-cd <repository folder>
+git clone https://github.com/Aymen20066/Veylo.git
+cd Veylo
 pip install -r requirements.txt
 cp .env.example .env        # then add your own Apify and Gemini keys to .env
 streamlit run app.py
@@ -80,7 +78,7 @@ Commercial:
 - Transport is estimated as a fixed €150 plus a per-km rate (default €0.40/km, minimum €300) over one average distance per country pair, calibrated on the Clicktrans 2024 marketplace report and carrier price lists. It ignores the car's exact location and assumes a shared open transporter.
 - The tax tables have not been reviewed by a tax professional.
 - Exchange rates are static: ECB reference rates as of 21 August 2026.
-- The units of the Bulgarian eco-fee are unverified. The code treats the figures as EUR; my planning notes record the same figures as BGN. If they are BGN, Bulgarian amounts are about twice too high.
+- The units of the Bulgarian eco-fee are unverified. The code treats the figures as EUR; the original project plan (docs/original-plan.md) records the same figures as BGN. If they are BGN, Bulgarian amounts are about twice too high.
 - The market comparison table shows medians of the listings returned by one search, which are fetched cheapest-first; it is not a market price estimate.
 - Listing data comes from scraping AutoScout24, whose terms may restrict automated collection. This is a non-commercial portfolio prototype and no scraped data is included.
 
