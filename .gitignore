@@ -1,0 +1,20 @@
+# Secrets and local environment
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / agent settings and logs
+.idea/
+.claude/
+*.log
+
+# Local-only working files and scraped data (never commit: raw exports contain
+# personal data such as seller names and phone numbers)
+_private/
+history/data/
+history/raw/
+
+# Streamlit secrets (the theme in .streamlit/config.toml is tracked on purpose)
+.streamlit/secrets.toml

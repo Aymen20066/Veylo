@@ -1,0 +1,17 @@
+# Veylo brand theme. Streamlit follows the visitor's system setting and offers both
+# themes in its settings menu. Never put secrets in this file.
+
+[theme]
+primaryColor = "#E64B1B"
+
+[theme.light]
+primaryColor = "#E64B1B"
+backgroundColor = "#FEF1ED"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#010100"
+
+[theme.dark]
+primaryColor = "#E64B1B"
+backgroundColor = "#1C1C1C"
+secondaryBackgroundColor = "#2A2A2A"
+textColor = "#FEF1ED"
