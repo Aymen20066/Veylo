@@ -211,3 +211,12 @@ Design: one Gemini call per batch, with a JSON schema whose properties are the b
 ## Transport estimate recalibrated (17 November 2026)
 
 The earlier transport estimate (distance × €0.20/km) was found to be 2–4× too low against the Clicktrans 2024 marketplace report and carrier price lists, and was replaced with €150 + a per-km rate (default €0.40/km), minimum €300.
+
+## Spot check against other platforms (November 2026)
+
+- **Search:** Lexus LC 500, convertible, at most 10,000 km.
+- **Veylo:** 5 listings, the same 5 as AutoScout24 (expected, since Veylo searches AutoScout24).
+- **mobile.de:** 3 listings, all of them also on AutoScout24.
+- **Carvago:** 2 listings, shown with VAT, inspection and delivery cost included, plus a 14-day return policy, 6-month warranty, price history and financing.
+- **Auto1 (professional buyers):** no LC 500; its search is built for dealers (purchase preferences, condition and accident history, service records, auctions).
+- **Takeaway:** on this search, adding mobile.de found no extra cars, and the established platforms compete on removing transaction risk rather than on the number of listings. One rare model is not representative.

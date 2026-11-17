@@ -6,9 +6,11 @@ A working prototype that searches used cars across five European markets and est
 
 ## Project status
 
-Paused (prototype complete). I built this to test whether a landed-cost view could be a product for small car importers. The prototype showed it is technically feasible. Market research then showed three constraints: an established company launched the same calculation bundled with inspection, paperwork and transport; reliable data access depends on third-party scraping with unresolved terms of use; and my customer evidence was a single interview. I paused development rather than build further on an unproven edge.
+Paused (prototype complete). I built this to test whether a landed-cost view could be a product for small car importers. The prototype showed it is technically feasible. Market research then showed three constraints: an established company (Carvago) already offers the delivered price, including VAT and transport, bundled with a physical pre-purchase inspection, a warranty and a 14-day return policy; reliable data access depends on third-party scraping with unresolved terms of use; and my customer evidence was a single interview. I paused development rather than build further on an unproven edge.
 
 ## What it does
+
+The original idea was to search several marketplaces at once (AutoScout24, mobile.de, La Centrale and others) and rank every car by its total cost delivered to Eastern Europe, so an importer would not have to search each site separately. This prototype implements the full cost engine but searches AutoScout24 only.
 
 - Searches AutoScout24 listings for one make and model across Germany, Belgium, France, the Netherlands and Italy in a single search.
 - Estimates, for each car, the cost of getting it registered in the chosen destination country: vehicle price + transport + the destination's tax + registration and inspection fees.
@@ -72,6 +74,7 @@ Commercial:
 - Validate with several customers before building. One interview is not evidence of a market.
 - A feature is not an edge if a calculator gives it away free.
 - Tools that take no transaction risk are worth less to professionals than services that do.
+- I did market research, but stopped earlier than I should have, partly because I worried more research was becoming an excuse not to start.
 
 ## Known limitations
 
